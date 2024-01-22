@@ -1,6 +1,6 @@
-# vending-machine react-app
+# Vending Machine
 
-React vending machine router app - Springboard section 41.1
+A react app for Springboard section 41.1
 
 ## Available Scripts
 
