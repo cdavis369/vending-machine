@@ -1,15 +1,15 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import "./vm-options.css";
 
 function Candy() {
   const [candy, setCandy] = useState("");
 
   return(
-    <div className="candy">
-      <h1>Candy</h1>
+    <div className="vm-option">
       <button onClick={() => setCandy("Candy")}>Get Candy</button>
       <Link to="/">Back</Link>
-      {candy && (<p>{candy}</p>)}
+      {candy && (<img class="products" alt="snickers.png" src="/products/snickers.png"/>)}
     </div>
   );
 }

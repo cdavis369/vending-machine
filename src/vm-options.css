@@ -1,4 +1,4 @@
-.vending-machine {
+.vm-option {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -6,15 +6,20 @@
   margin-left: 5rem;
 }
 
-.vending-machine a {
+button {
   background-color: #7adbf6c2;
   color: #1e00ff;
-  padding: 10px 20px;
+  padding: 10px 50px;
   text-align: center;
   text-decoration: none;
   font-size: 32px;
   font-weight: bold;
   border: solid #45a049;
   border-radius: 5px;
-  width: 20rem;
+  width: 23rem;
+}
+
+.products {
+  max-height: 10rem;
+  max-width: 10rem;
 }

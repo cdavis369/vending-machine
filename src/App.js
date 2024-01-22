@@ -8,15 +8,18 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <BrowserRouter>
-        <Routes>
-          <Route path="/drinks" element={<Drink/>} />
-          <Route path="/snacks" element={<Snack/>} />
-          <Route path="/candy" element={<Candy/>} />
-          <Route path="/" element={<VendingMachine/>} />
-        </Routes>
-      </BrowserRouter>
+    <div className="container">
+      <img class="background" alt="background.png" src="/background.png"></img>
+      <div className="vending-machine">
+        <BrowserRouter>
+          <Routes>
+            <Route path="/drinks" element={<Drink/>} />
+            <Route path="/snacks" element={<Snack/>} />
+            <Route path="/candy" element={<Candy/>} />
+            <Route path="/" element={<VendingMachine/>} />
+          </Routes>
+        </BrowserRouter>
+      </div>
     </div>
   );
 }

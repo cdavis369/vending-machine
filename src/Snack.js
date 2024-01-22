@@ -1,15 +1,15 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import "./vm-options.css";
 
 function Snack() {
-  const [snacks, setSnacks] = useState("");
+  const [snacks, setSnacks] = useState(false);
 
   return(
-    <div className="snacks">
-      <h1>Snacks</h1>
-      <button onClick={() => setSnacks("Chips")}>Get Chips</button>
+    <div className="vm-option">
+      <button onClick={() => setSnacks(true)}>Get Chips</button>
       <Link to="/">Back</Link>
-      {snacks && (<p>{snacks}</p>)}
+      {snacks && (<img class="products" alt="lays.png" src="/products/lays.png"/>)}
     </div>
   );
 }
