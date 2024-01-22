@@ -4,9 +4,10 @@ function VendingMachine () {
 
   return (
     <div className="vending-machine">
-      <h1>Home Screen</h1>
-
-      <NavBar />
+      <img alt="background.pbg" src="/background.png"></img>
+      <div className="nav-bar">
+        <NavBar />
+      </div>
     </div>
   );
 }
