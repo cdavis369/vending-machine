@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# vending-machine react-app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React vending machine router app - Springboard section 41.1
 
 ## Available Scripts
 
